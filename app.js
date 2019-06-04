@@ -11,6 +11,12 @@ const requireDir = require("require-dir");
 /* Iniciando o  express através da constante App */
 const app = express();
 
+/* 
+Importando o método que permite a aplicação enviar
+e receber dados no formato json
+ */
+app.use(express.json());
+
 /*
 Nodemon
 
