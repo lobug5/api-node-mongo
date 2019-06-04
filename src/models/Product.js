@@ -1,5 +1,11 @@
 const mongoose = require("mongoose");
 
+/*
+    Mongoose-paginate
+
+    Dependência que faz a paginação dos dados
+    retornados do banco.
+*/
 /* 
     Importando a dependência de paginação 
     do mongodb.

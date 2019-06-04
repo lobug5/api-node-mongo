@@ -7,6 +7,8 @@ const mongoose = require("mongoose");
 /* Importando a biblioteca require-dir na aplicação */
 const requireDir = require("require-dir");
 
+/* Importando a biblioteca cors na aplicação */
+const cors = require("cors");
 
 /* Iniciando o  express através da constante App */
 const app = express();
@@ -16,6 +18,7 @@ Importando o método que permite a aplicação enviar
 e receber dados no formato json
  */
 app.use(express.json());
+app.use(cors());
 
 /*
 Nodemon
